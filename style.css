@@ -1,0 +1,57 @@
+h1{
+  font-size: 30px;
+  width: 180px;
+  margin: 10px;
+  text-align: center;
+  padding: 0px;
+}
+
+.day{
+  height: 20px;
+}
+
+th{
+  background-color: rgb(90, 183, 206);
+  font-size: 15px;
+  text-align: center;
+}
+
+td{
+  background-color: #EEE;
+  font-size: 15px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 0px;
+  transition: all ease 0.3s;
+}
+
+td:hover{
+  background-color: #BBB;
+}
+
+input[type="text"]{
+  width: 35px;
+}
+
+
+.table{
+  width: 1000px;
+  height: 700px;
+} 
+
+div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.memo{
+  flex-grow: 1;
+  flex-basis: 0;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  height: 700px;
+  /* height:200px;
+  width: 300px; */
+}
+
